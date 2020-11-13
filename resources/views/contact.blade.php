@@ -201,8 +201,7 @@
             <div class="contact-form__item">
               <h3 class="contact-form__ttl">ご連絡先</h3>
               <label for="tel">電話番号</label>
-              <input type="tel" class="form-control" name="tel-national" required />
-              <div class="invalid-feedback">必須項目です。</div>
+              <input type="tel" class="form-control" name="tel-national"/>
               <div class="contact-form__col">
                 <label for="email">メールアドレス<span class="danger text-danger">【必須】</span></label>
                 <input type="email" class="form-control" name="email" required/>
