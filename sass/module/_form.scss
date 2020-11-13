@@ -1,14 +1,14 @@
 .form {
   margin-top: 40px;
 
-  .recruit__ttl-wrapper {
+  .contact__ttl-wrapper {
     text-align: left;
 
     @include mq('sp') {
       text-align: center;
     }
   }
-  .recruit__ttl {
+  .contact__ttl {
     font-size: 24px;
     margin-bottom: 16px;
     padding-top: 7px;
@@ -25,7 +25,7 @@
     }
   }
 
-  .recruit__txt {
+  .contact__txt {
     font-size: 16px;
     margin-bottom: 8px;
     padding-left: 15px;
@@ -48,13 +48,13 @@
   }
 }
 
-.recruit-message {
+.contact-message {
   color: red;
-  .recruit-message__ttl {
+  .contact-message__ttl {
   }
 }
 
-.recruit-form {
+.contact-form {
   font-size: 16px;
   margin: 32px 0;
   // background-color: #eee;
@@ -67,7 +67,7 @@
     margin-top: 16px;
   }
 
-  .recruit-form__item {
+  .contact-form__item {
     margin-bottom: 32px;
 
     &:last-child {
@@ -75,7 +75,7 @@
     }
   }
 
-  .recruit-form__ttl {
+  .contact-form__ttl {
     margin-bottom: 8px;
     font-size: 18px;
     @include mq('sp') {
@@ -83,26 +83,26 @@
     }
   }
 
-  .recruit-form__txt {
+  .contact-form__txt {
     @include mq('sp') {
       margin-bottom: 8px;
     }
   }
 
-  .recruit-form__col {
+  .contact-form__col {
     margin-top: 16px;
   }
 
-  .recruit-form__graduation {
+  .contact-form__graduation {
     width: 80%;
     margin-right: 8px;
   }
 
-  .recruit-form__list {
+  .contact-form__list {
     padding-left: 8px;
     margin-bottom: 8px;
 
-    .recruit-form__list-item {
+    .contact-form__list-item {
       margin-bottom: 8px;
 
       &:last-child {
@@ -111,11 +111,11 @@
     }
   }
 
-  .recruit-form__check {
+  .contact-form__check {
     text-align: center;
   }
 
-  .recruit-form__message {
+  .contact-form__message {
     text-align: center;
     background-color: #ddd;
   }

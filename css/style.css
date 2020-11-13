@@ -22,17 +22,17 @@
   margin-top: 40px;
 }
 
-.form .recruit__ttl-wrapper {
+.form .contact__ttl-wrapper {
   text-align: left;
 }
 
 @media screen and (max-width: 767px) {
-  .form .recruit__ttl-wrapper {
+  .form .contact__ttl-wrapper {
     text-align: center;
   }
 }
 
-.form .recruit__ttl {
+.form .contact__ttl {
   border-left: 5px solid #2f87bf;
   font-size: 24px;
   margin-bottom: 16px;
@@ -42,7 +42,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .form .recruit__ttl {
+  .form .contact__ttl {
     border-bottom: 2px solid #2f87bf;
     border-left: none;
     display: inline-block;
@@ -51,35 +51,35 @@
   }
 }
 
-.form .recruit__txt {
+.form .contact__txt {
   font-size: 16px;
   margin-bottom: 8px;
   padding-left: 15px;
 }
 
 @media screen and (max-width: 767px) {
-  .form .recruit__txt {
+  .form .contact__txt {
     font-size: 14px;
     margin-bottom: 4px;
   }
 }
 
-.form .recruit__txt--passed {
+.form .contact__txt--passed {
   color: red;
   font-size: inherit;
   font-weight: bold;
 }
 
-.form .recruit__txt--emp {
+.form .contact__txt--emp {
   font-size: inherit;
   font-weight: bold;
 }
 
-.recruit-message {
+.contact-message {
   color: red;
 }
 
-.recruit-form {
+.contact-form {
   border-radius: 5px;
   font-size: 16px;
   margin: 32px 0;
@@ -87,65 +87,65 @@
 }
 
 @media screen and (max-width: 767px) {
-  .recruit-form {
+  .contact-form {
     font-size: 14px;
     margin-top: 16px;
     padding: 24px;
   }
 }
 
-.recruit-form .recruit-form__item {
+.contact-form .contact-form__item {
   margin-bottom: 32px;
 }
 
-.recruit-form .recruit-form__item:last-child {
+.contact-form .contact-form__item:last-child {
   margin-bottom: 0;
 }
 
-.recruit-form .recruit-form__ttl {
+.contact-form .contact-form__ttl {
   font-size: 18px;
   margin-bottom: 8px;
 }
 
 @media screen and (max-width: 767px) {
-  .recruit-form .recruit-form__ttl {
+  .contact-form .contact-form__ttl {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .recruit-form .recruit-form__txt {
+  .contact-form .contact-form__txt {
     margin-bottom: 8px;
   }
 }
 
-.recruit-form .recruit-form__col {
+.contact-form .contact-form__col {
   margin-top: 16px;
 }
 
-.recruit-form .recruit-form__graduation {
+.contact-form .contact-form__graduation {
   margin-right: 8px;
   width: 80%;
 }
 
-.recruit-form .recruit-form__list {
+.contact-form .contact-form__list {
   margin-bottom: 8px;
   padding-left: 8px;
 }
 
-.recruit-form .recruit-form__list .recruit-form__list-item {
+.contact-form .contact-form__list .contact-form__list-item {
   margin-bottom: 8px;
 }
 
-.recruit-form .recruit-form__list .recruit-form__list-item:last-child {
+.contact-form .contact-form__list .contact-form__list-item:last-child {
   margin-bottom: 0;
 }
 
-.recruit-form .recruit-form__check {
+.contact-form .contact-form__check {
   text-align: center;
 }
 
-.recruit-form .recruit-form__message {
+.contact-form .contact-form__message {
   background-color: #ddd;
   text-align: center;
 }
