@@ -1,0 +1,126 @@
+.form {
+  margin-top: 40px;
+
+  .recruit__ttl-wrapper {
+    text-align: left;
+
+    @include mq('sp') {
+      text-align: center;
+    }
+  }
+  .recruit__ttl {
+    font-size: 24px;
+    margin-bottom: 16px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-left: 5px solid $base-color;
+
+    @include mq('sp') {
+      display: inline-block;
+      padding: 0 0 4px;
+      font-size: 20px;
+      border-left: none;
+      border-bottom: 2px solid $base-color;
+    }
+  }
+
+  .recruit__txt {
+    font-size: 16px;
+    margin-bottom: 8px;
+    padding-left: 15px;
+
+    @include mq('sp') {
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+
+    &--passed {
+      font-size: inherit;
+      color: red;
+      font-weight: bold;
+    }
+
+    &--emp {
+      font-size: inherit;
+      font-weight: bold;
+    }
+  }
+}
+
+.recruit-message {
+  color: red;
+  .recruit-message__ttl {
+  }
+}
+
+.recruit-form {
+  font-size: 16px;
+  margin: 32px 0;
+  // background-color: #eee;
+  padding: 32px;
+  border-radius: 5px;
+
+  @include mq('sp') {
+    font-size: 14px;
+    padding: 24px;
+    margin-top: 16px;
+  }
+
+  .recruit-form__item {
+    margin-bottom: 32px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .recruit-form__ttl {
+    margin-bottom: 8px;
+    font-size: 18px;
+    @include mq('sp') {
+      font-size: 16px;
+    }
+  }
+
+  .recruit-form__txt {
+    @include mq('sp') {
+      margin-bottom: 8px;
+    }
+  }
+
+  .recruit-form__col {
+    margin-top: 16px;
+  }
+
+  .recruit-form__graduation {
+    width: 80%;
+    margin-right: 8px;
+  }
+
+  .recruit-form__list {
+    padding-left: 8px;
+    margin-bottom: 8px;
+
+    .recruit-form__list-item {
+      margin-bottom: 8px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .recruit-form__check {
+    text-align: center;
+  }
+
+  .recruit-form__message {
+    text-align: center;
+    background-color: #ddd;
+  }
+}
+
+.recuit__btn--sending {
+  display: flex;
+}

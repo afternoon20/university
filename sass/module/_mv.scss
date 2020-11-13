@@ -1,0 +1,39 @@
+.mv {
+  background: $mv-color url(../img/dist/mv01.jpg) center center no-repeat;
+  background-size: cover;
+  // height: 300px;
+  position: relative;
+
+  margin-top: 80px;
+  padding: 200px 0 200px;
+  z-index: 1;
+
+  @include mq('sp') {
+    padding: 100px 0 100px;
+  }
+
+  &:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .mv__ttl {
+    text-align: center;
+
+    @include mq('sp') {
+    }
+  }
+  .mv-txt {
+    font-size: 2.4em;
+
+    @include mq('sp') {
+      font-size: 1.6em;
+    }
+  }
+}
