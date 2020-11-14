@@ -74,7 +74,7 @@
           <p>
             資料請求をご希望の方は、下記フォームをご記入の上、「送信する」ボタンをクリックしてください。<br />
             ご記入いただいたメールアドレス宛に、資料をお送りいたします。<br />
-            ※ご記入いただいた個人情報は、資料請求の送付のみに利用し、それ以外の目的には利用いたしません。
+            ※このサイトは、デモサイトです。実際に資料が送られるようなことはありません。
           </p>
           <form class="contact-form needs-validation bg-light shadow" action="/send" method="post" novalidate>
             @csrf
@@ -110,14 +110,15 @@
             <div class="contact-form__item">
               <h3 class="contact-form__ttl">性別<span class="danger text-danger">【必須】</span></h3>
               <div class="form-check">
-                <input class="form-check-input" id="male" type="radio" name="gender" value="male" required />
-                <label class="form-check-label" for="male"> 男性 </label>
+                <input class="form-check-input" id="男性" type="radio" name="gender" value="男性" required />
+                <label class="form-check-label" for="男性"> 男性 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" id="female" name="gender" value="female" required />
-                <label class="form-check-label" for="female"> 女性 </label>
+                <input class="form-check-input" type="radio" id="女性" name="gender" value="女性" required />
+                <label class="form-check-label" for="女性"> 女性 </label>
+                <div class="invalid-feedback">必須項目です。</div>
               </div>
-              <div class="invalid-feedback">必須項目です。</div>
+              
             </div>
             <div class="contact-form__item">
               <h3 class="contact-form__ttl">住所</h3>
@@ -220,7 +221,7 @@
             </div>
             <div class="form-check contact-form__check">
               <input class="form-check-input" type="checkbox" required />
-              <label class="form-check-label" for="check"> ご記入いただいた内容を確認し、応募します。 </label>
+              <label class="form-check-label" for="check"> ご記入いただいた内容を確認し、送信します。 </label>
             </div>
             <button id="send" class="mt-5 btn btn-danger btn-lg btn-block" type="submit">送信する</button>
             <button id="sending" class="recuit__btn--sending mt-5 btn btn-danger btn-lg btn-block justify-content-center" type="submit" disabled>
