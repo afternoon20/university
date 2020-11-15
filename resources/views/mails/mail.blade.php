@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
 </head>
-<body style="padding :0 24px">
+<body style="padding :0 16px">
   <h1 style="margin-bottom:16px">資料請求</h1>
   <p>資料請求フォームをご利用いただきありがとうございます。<br>下記の内容で受け付けました。</p>
   お名前：{{ $content['name'] }}<br> 

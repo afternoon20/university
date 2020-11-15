@@ -32,7 +32,7 @@ class SendMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('資料を請求いたします | 舞浜大学')
+        return $this->subject('資料をお送りいたします | 舞浜大学')
                     ->view('mails.mail')
                     ->with(['content' => $this->content]);
     }
